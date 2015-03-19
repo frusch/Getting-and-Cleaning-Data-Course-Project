@@ -13,7 +13,7 @@ So, what is this scrip do:
   * As original data was splitted into train and test set script merges train and test set
   * Original data is consist from different file. Script merges data into one data frame
   * Script gives proper variable names (about variables you can read in codebook)
-  * Activity variable was codded as 1, 2, etc. Scrip decodes this activity labels (WALKING, WALKING_UPSTAIRS, etc.)
+  * Activity variable was codded as 1, 2, etc. Scrip codes this with activity labels (WALKING (1), WALKING_UPSTAIRS (2), etc.)
   * It computes average of the measurements on the mean and standard deviation by subject id and activity type
   * It saves the file contains average values as features_average.txt
 
