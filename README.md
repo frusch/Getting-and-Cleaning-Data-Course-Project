@@ -16,3 +16,9 @@ So, what is this scrip do:
   * Activity variable was codded as 1, 2, etc. Scrip decodes this activity labels (WALKING, WALKING_UPSTAIRS, etc.)
   * It computes average of the measurements on the mean and standard deviation by subject id and activity type
   * It saves the file contains average values as features_average.txt
+
+To load the data better use the following command:
+
+```
+data <- read.table("features_average.txt", header = TRUE)
+```
